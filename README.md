@@ -1,50 +1,49 @@
-# React Todo App with API (complete)
+# Todo app with rest API
 
-It is the third part of the React Todo App with API.
+## Table of contents
 
-Take your code implemented for [Add and Delete](https://github.com/mate-academy/react_todo-app-add-and-delete)
-and implement the ability to toggle and rename todos.
+- [Instruction](#instruction)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
-> Here is [the working example](https://mate-academy.github.io/react_todo-app-with-api/)
+### Instruction
 
-## Toggling a todo status
+- Clone this project to your computer and run <code>npm i</code> to install all dependencies
+- Run <code>npm start</code> to run program.
 
-Toggle the `completed` status on `TodoStatus` change:
-- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
-- covered the todo with a loader overlay while waiting for API response;
-- the status should be changed on success;
-- show the `Unable to update a todo` notification in case of API error.
+### Features
+A simple Todo App built with modern technologies. This application allows users to manage tasks using a REST API. It supports fetching, adding, updating, and deleting todos seamlessly.
 
-Add the ability to toggle the completed status of all the todos with the `toggleAll` checkbox:
+- Fetch Todos: View all tasks for a specific user.
+- Add Todo: Create new tasks quickly.
+- Update Todo: Edit existing tasks
+- Delete Todo: Remove tasks by ID.
 
-- `toggleAll` button should have `active` class only if all the todos are completed;
-- `toggleAll` click changes its status to the opposite one, and sets this new status to all the todos;
-- it should work the same as several individual updates of the todos which statuses were actually changed;
-- do send requests for the todos that were not changed;
+### Screenshot
 
-## Renaming a todo
+![Demo](demo.png)
 
-Implement the ability to edit a todo title on double click:
+### Links
 
-- show the edit form instead of the title and remove button;
-- saves changes on the form submit (just press `Enter`);
-- save changes when the field loses focus (`onBlur`);
-- if the new title is the same as the old one just cancel editing;
-- cancel editing on `Esс` key `keyup` event;
-- if the new title is empty delete the todo the same way the `x` button does it;
-- if the title was changed show the loader while waiting for the API response;
-- update the todo title on success;
-- show `Unable to update a todo` in case of API error;
-- or the deletion error message if we tried to delete the todo.
+- [Solution](https://github.com/Svidruk/Todo-App)
+- [Live Demo](https://svidruk.github.io/Todo-App/)
 
-## If you want to enable tests
-- open `cypress/integration/page.spec.js`
-- replace `describe.skip` with `describe` for the root `describe`
+### Built with
+<div>
+  <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+  <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+</div>
 
-> ❗❗All tests should pass, even if some behaviour in not well explained in the task❗❗
+- React: Component-based front-end framework.
+- TypeScript: Static typing for JavaScript.
+- REST API: Communication with backend services.
+- Bulma: Modern CSS framework for styling
 
-## Instructions
+## Author
 
-- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
-- Use the [React TypeScript cheat sheet](https://mate-academy.github.io/fe-program/js/extra/react-typescript).
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://Svidruk.github.io/react_todo-app-with-api/) and add it to the PR description.
+- Github - [Svidruk](https://github.com/Svidruk)
+- LinkedIn - [Mykola Svidruk](linkedin.com/in/mykola-svidruk-b16b79292/)
+- Telegram - [@SvidrukMykola](https://t.me/SvidrukMykola)
