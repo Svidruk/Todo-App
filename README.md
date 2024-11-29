@@ -24,7 +24,7 @@ A simple Todo App built with modern technologies. This application allows users 
 
 ### Screenshot
 
-![Demo](demo.png)
+![Demo](./Demo.png)
 
 ### Links
 
