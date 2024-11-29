@@ -29,7 +29,7 @@ A simple Todo App built with modern technologies. This application allows users 
 ### Links
 
 - [Solution](https://github.com/Svidruk/Todo-App)
-- [Live Demo](https://svidruk.github.io/Todo-App/)
+- [Live Demo](https://Svidruk.github.io/react_todo-app-with-api/)
 
 ### Built with
 <div>
